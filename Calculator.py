@@ -7,8 +7,13 @@ class Calculator:
         add = self.num1 + self.num2
         print("El resultado de la suma es: ", add)
 
+    def Substraction(self):
+        sub = self.num1 - self.num2
+        print("El resultado de la resta es: ", sub)
+
 num1 = input("Ingrese el primer número: ")
 num2 = input("Ingrese el segundo número: ")
 
 calculator = Calculator(num1, num2)
 calculator.Addition()
+calculator.Substraction()
